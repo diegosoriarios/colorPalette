@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+#work_box {
+    width: 55vw;
+    margin: auto;
+    padding: 1em;
+
+    border: black solid 1px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#upload {
+    font-family: inherit;
+    font-size: inherit;
+
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+#colors div {
+    border: black solid 1px;
+    margin: 0.25em;
+    padding: 0.5em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    display: inline-block;
+}
